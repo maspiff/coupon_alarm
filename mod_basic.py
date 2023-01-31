@@ -47,7 +47,7 @@ def get_url_prefix(site_name):
 class ModuleBasic(PluginModuleBase):
     def __init__(self, P):
         super(ModuleBasic, self).__init__(P, name='basic',
-                                          first_menu='setting', scheduler_desc="핫딜 알람")
+                                          first_menu='setting', scheduler_desc="뽐뿌 쿠폰 알람")
         self.db_default = {
             f'db_version': '1.8',
             f'{self.name}_auto_start': 'False',

@@ -6,7 +6,7 @@ setting = {
     'home_module': None,
     'menu': {
         'uri': __package__,
-        'name': '핫딜 알람',
+        'name': '뽐뿌 쿠폰 알람',
         'list': [
             {
                 'uri': 'basic/setting',
